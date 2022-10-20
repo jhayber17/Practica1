@@ -1,0 +1,30 @@
+#form {
+  background-color: #dbeef2;
+}
+#form-title {
+  text-align: center;
+}
+form.invalid input:invalid,
+form.invalid select:invalid,
+form.invalid input.invalid,
+form.invalid select.invalid {
+  background-color: #ffd4d4;
+  border: 1px solid maroon;
+}
+input:required,
+select:required {
+  background-color: lightyellow;
+}
+
+.buttons {
+  text-align: center;
+}
+#saveOrder,
+#submitOrder {
+  background: #130ac0;
+  border-radius: 6px;
+  font-size: larger;
+  font-family: Arial;
+  color: #fafafa;
+  text-decoration: none;
+}
